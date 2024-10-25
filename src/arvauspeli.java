@@ -28,7 +28,7 @@ public class arvauspeli {
 
             // katsoo onko arvaus oikein
             if (arvaus.equalsIgnoreCase(correctAnswer)) {
-                System.out.println("Onneksi olkoon!");
+                System.out.println("Onneksi olkoon! Arvasit oikein");
                 break;  // poistuu loopista jos arvaus on oikein
             } else {
                 System.out.println("Väärin! Arvaa uudestaan.");
@@ -38,7 +38,7 @@ public class arvauspeli {
         // printtaa arvauskerrat
         System.out.println("Arvasit " + arvausKerrat + " kertaa.");
 
-        scanner.close();
+        scanner.close(); // sulkee skannerin, en ole varma onko se pakollinen tällaisessa koodissa
     }
 }
 
