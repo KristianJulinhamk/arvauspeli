@@ -4,7 +4,7 @@ public class arvauspeli {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        // oikea arvaus
         String correctAnswer = "Kristian";
 
         // arvauskertojen muuttuja
@@ -20,7 +20,7 @@ public class arvauspeli {
             // katsoo haluaako kayttaja lopettaa
             if (arvaus.equalsIgnoreCase("loppu")) {
                 System.out.println("Päätit lopettaa.");
-                break;
+                break; // lopettaa ohjelman
             }
 
             // lisää arvauskerran vain jos arvaus ei ole stop
