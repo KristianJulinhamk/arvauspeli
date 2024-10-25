@@ -31,7 +31,7 @@ public class arvauspeli {
                 System.out.println("Onneksi olkoon!");
                 break;  // poistuu loopista jos arvaus on oikein
             } else {
-                System.out.println("Arvaa uudestaan.");
+                System.out.println("Väärin! Arvaa uudestaan.");
             }
         }
 
